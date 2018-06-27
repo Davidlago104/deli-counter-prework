@@ -20,6 +20,6 @@ def line(array)
 end
 end
 
-def now_serving
+def now_serving(array)
   
 end
