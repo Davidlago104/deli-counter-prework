@@ -13,5 +13,6 @@ def line(array)
     puts "The line is currently empty."
   else 
     message = "The line is currently:"
-  array.each
+  array.each_index do |value, index|
+    message += "#{index.to"
 end
