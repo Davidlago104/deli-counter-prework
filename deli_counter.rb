@@ -1,9 +1,9 @@
 # Write your code here.
 katz_deli = []
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  line = katz_deli.index(name)
-  puts "Welcome, #{string}. You are number #{other_deli.index(name)+1} in line."
-  return name, line
+def take_a_number(array, name)
+  array.push(name)
+  position = array.index(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  return name, position
 end
