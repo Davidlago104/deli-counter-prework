@@ -20,11 +20,11 @@ def line(array)
 end
 end
 
-def now_serving(array)
-  if array == 0 
+def now_serving(katz_deli)
+  if katz_deli == 0 
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{array[0]}."
+    puts "Currently serving #{katz_deli[0]}."
     array.shift
   end
 end
